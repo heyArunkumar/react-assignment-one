@@ -1,0 +1,46 @@
+.card-section{
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 80%;
+    margin: 0 auto;
+}
+.card-one{
+      margin-right: 40px;
+      border-radius: 50%;
+}
+.card-two{
+    margin-left: 40px;
+    border-radius: 50%;
+}
+.card-one,.card-two{
+    height: 50vh;
+    width: 50vh;
+    background-image: url("../cat.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.card-one-inactive,.card-two-inactive{
+    height: 49vh;
+    width: 50vh;
+    border: 2px solid rgba(59, 147, 219, 0.559);
+    border-radius: 50%;
+}
+button{
+    margin-top: 4rem;
+    padding: 10px 23px;
+    background-color: lightskyblue;
+    color: black;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 28px;
+}
+p{
+    color: white !important;
+    padding: 67px 30px;
+}
